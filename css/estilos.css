@@ -1,0 +1,417 @@
+@font-face {
+    font-family: Steelfish;
+    src: url(../font/steelfish/Steelfish\ Bd.otf);
+}
+
+body {
+    background-color: #91ffe4e8;
+    color: #333333;
+    font-family: Steelfish;
+
+}
+
+.sacola {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-size: 18px;
+
+}
+
+a .sacola {
+    text-decoration: none;
+    color: #c35d09;
+
+}
+
+.menu-opcoes ul {
+    font-size: 20px;
+
+}
+
+.menu-opcoes a {
+    color: #1b1b1b;
+    text-decoration: none;
+
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.sacola {
+    padding-top: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.opcoes {
+    margin: 30px 50px 10px;
+}
+
+
+header {
+    background-color: #ffc594;
+    position: relative;
+    font-family: Steelfish;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.logo {
+    padding: 20px;
+}
+
+.busca,
+.menu-departamentos {
+    background-color: #ffc594;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+
+.menu-departamentos li {
+    background-color: rgba(255, 255, 255, 0.547);
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.busca input[type=search] {
+    width: 200px;
+    border: 2px solid #c35d09;
+    background-color: transparent;
+    outline: none;
+    padding: 3px;
+}
+
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.painel {
+    margin: 10px 15px 80px 0px;
+    padding: 50px;
+    width: 400px;
+}
+
+.novidades {
+    float: left;
+    background-color: #d8fff5b9;
+}
+
+.mais-vendidos {
+    float: left;
+    background-color: #d8fff5b9;
+    padding-bottom: 65px;
+
+}
+
+.painel ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.painel li {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    font-family: Steelfish;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.banner-destaque {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ffc594;
+    clear: both;
+    padding: 20px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    list-style: none;
+}
+
+
+.social a {
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+    background-color: #ffc594;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a[href*="http://youtube.com/taylorswift"] {
+    background-image: url(../img/sociais/youtube.png);
+}
+
+.social a[href*="http://spotify.com/taylorswift"] {
+    background-image: url(../img/sociais/spotify.png);
+}
+
+.social a[href*="http://instagram.com/taylorswift"] {
+    background-image: url(../img/sociais/instagram.png);
+}
+
+.busca button {
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-size: cover;
+    background-color: #ffc594;
+    margin-left: 5px;
+
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+}
+
+.titulo {
+    padding: 30px;
+    margin: 20px auto;
+    font-size: 40px;
+    text-align: center;
+    color: #c35d09;
+    background-color: #ffc594;
+    border-radius: 25px;
+    width: 800px;
+}
+
+.sobre {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+.estoque {
+    padding: 30px;
+    width: 700px;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+.text-span {
+    color: #c35d09;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: #ffc594;
+    font-size: 25px;
+    background-color: #c35d09;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+}
+
+.voltar a:hover {
+    color: #ffc594;
+    background-color: #df8032;
+
+}
+
+.produto-container {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.produto-imagem img {
+    width: 100%;
+    height: 400px;
+}
+
+.produto-info {
+    padding: 15px;
+}
+
+.produto-nome {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0 0 6px;
+}
+
+.produto-preco {
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+.conta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.conta h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.nome {
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.email {
+    font-size: 20px;
+    color: #777;
+}
+
+.help {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.help h1 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.help h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.help p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.favoritos {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.favoritos h1 {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.favoritos p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.musicas {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.musicas h1 {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.musicas li {
+    padding: 8px 0;
+    border-bottom: 1px solid #c2c2c2;
+    font-size: 18px;
+}
